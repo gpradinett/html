@@ -1,0 +1,38 @@
+<!--Este ejemplo utiliza box-shadow para crear una sombra interna, dándole un efecto de profundidad al contenedor. -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contenedor con Sombra Interna</title>
+  <style>
+    body, html {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .contenedor {
+      width: 180px;
+      height: 180px;
+      background-color: #3498db;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra interna */
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    Sombra Interna
+  </div>
+</body>
+</html>
