@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contenedor Centrado</title>
+  <style>
+    body, html {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0; /* Fondo de la página */
+    }
+
+    .contenedor {
+      width: 180px;
+      height: 180px;
+      background-color: #3498db; /* Fondo del contenedor */
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      line-height: 10.5; /* Interlineado más notorio */
+      font-size: 16px; /* Tamaño inicial de la letra */
+      border-radius: 8px; /* Bordes redondeados opcionales */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+      transition: background-color 0.3s, color 0.3s; /* Transición de color */
+    }
+
+    .contenedor:hover {
+
+      color: #f1c40f; /* Color de texto al pasar el mouse */
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    Contenedor centrado
+  </div>
+</body>
+</html>
