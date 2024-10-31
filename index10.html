@@ -1,0 +1,38 @@
+<!-- Este ejemplo utiliza un fondo con gradiente en lugar de un color sólido. -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contenedor con Gradiente</title>
+  <style>
+    body, html {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .contenedor {
+      width: 180px;
+      height: 180px;
+      background: linear-gradient(45deg, #3498db, #8e44ad); /* Gradiente de fondo */
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    Fondo Gradiente
+  </div>
+</body>
+</html>
